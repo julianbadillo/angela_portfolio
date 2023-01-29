@@ -50,7 +50,7 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/js/data.json',
+  path: 'js/data.json',
 });
 
 // --swiper explore--
