@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Favicon-->
+        <link rel="shortcut icon" href="assets/img/faviconAB.png" type="image/x-icon">
+        <!--BoxIcons-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <!--SwipweCSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
+        <title>Angela Bello Portfolio</title>
+
+    </head>       
+    <body>
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#about" class="nav_logo"><img src="assets/img/LogoAB60x60.png" alt=""></i></a>
+            
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav_item">
+                        <a href="#projects" class="nav_link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+                    
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class='bx bx-message-square'></i>
+                        </a>
+                    </li>
+                
+                </ul>
+            </div>
+             <!--ThemChange-->
+            <div class="theme-button"> 
+            <i class='bx bx-moon solid change-theme' id="theme-button"></i>
+            </div>
+        </nav>
+
+    </header>
+    <!--Main-->
+    <main class ="main">
+         <!--Home-->
+        <section class ="home section" id ="home">
+            <div class="home_container container grid">
+                <div class = "home_data">
+                   <div class="home_box">
+                        <span class="home_greeting">Hi, my name is</span>
+                        <h1 class="home_name">Angela Bello</h1>
+                        <h3 class="home_education">Design & Media Arts</h3>
+                        <p class="home_intro">
+                            I develop the ability to solve problems and translate ideas into visual terms. Also, I understand a wide range of symbols in culture and their influence on society. Throughout creating my portfolio and freelance projects, I build the ability to receive and process criticism on design-process work.
+
+                        <div class="home_buttons">
+                            <a download="" href="assets/pdf/AB Resume.pdf" class="button button--ghost">
+                                Download Resume
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    
+                        </div>    
+                    <div class="home_box">
+                        <div class="home_handle">
+                            <img src="assets/img/photoAB.png" alt="" class="home_img">
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="home_social">
+                    <a href="https://www.facebook.com/angela.bello1" target="_blank" class="home_social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/angela-patricia-bello-rodriguez-88147437/" target="_blank" class="home_social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+
+                    <a href="https://www.behance.net/angela52914c9d" target="_blank" class="home_social-link">
+                        <i class='bx bxl-behance'></i>
+                    </a>
+                </div>
+                <a href="#about" class="home_scroll">
+                    <i class='bx bx-mouse home_scroll-icon'></i>
+                    <span class="home_scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+        <!--about-->
+        <section class="about section" id="about">
+            <span class="section_subtitle">Intro</span>
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container container grid">
+                <img src="assets/img/phtoaAb.jpg" alt="" class="about_img">
+                <div class="about_data">
+                    <div class="about_info">
+                        <div class="about_box">
+                            <i class='bx bxs-component'></i>
+                            <h3 class="about_title">Education</h3>
+                            <span class="about_subtitle">BFA Design & Media Arts</span>
+                        </div>
+                        <div class="about_box">
+                            <i class='bx bxl-adobe'></i>
+                            <i class='bx bxl-microsoft'></i>
+                            <h3 class="about_title">Skills</h3>
+                            <span class="about_subtitle">Adobe Suit</span>
+                        </div>
+                        <div class="about_box">
+                            <i class='bx bx-briefcase'></i>
+                            <h3 class="about_title">Experience</h3>
+                            <span class="about_subtitle">Freelance</span>
+                        </div>
+
+                    </div>
+                    <p class="about_description">
+                        I am a Visual Communication Designer with a track record in creative solutions to challenging projects. What makes me unique is a background in engineering.
+                        As an engineer I developed critical thinking, problem-solving, time management, organizational and interpersonal communication skills.
+                        This combination of education and experience enables me to approach visual design challenges with confidence and enthusiasm.
+                       
+                    </p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+
+        </section>
+   
+         <!--portfolio-->
+         <section class ="work section" id="projects">
+            <span class="section_subtitle">Projects</span>
+            <h2 class="section_title">Portfolio</h2>
+
+            <div class="work_filters">
+                <span class="work_item active-work" data-filter='all' >All</span>
+                <span class="work_item" data-filter='.app' >Mobile</span>
+                <span class="work_item" data-filter='.web'>Web</span>
+                <span class="work_item" data-filter='.identity'>Identity</span>
+                <span class="work_item" data-filter='.personal'>Logo</span>
+                <span class="work_item" data-filter='.illustration'>Illiustration</span>
+                
+            </div>
+            
+            <div class="work_container container grid">
+                <div class="work_card mix app">
+                 
+                    <span class="work_button">
+                        <img src="assets/img/work1.gif" alt="" class="work_img">
+                        <h3 class="work_title">Kundalini App</h3>
+                        Quick view...<i class="bx bx-right-arrow-alt work_icon"></i>
+                    </span>
+                    <div class="work_modal">
+                        <div class="work_modal-content">
+                            <i class ='bx bx-x work_modal-close'></i>
+                            <h3 class="work_modal-title">Kundalini App</h3>
+                            <p class="work_modal-description">
+                                I created Kundalini App focus on revitalize natural-body energy flow by practicing specific poses.
+                            </p>
+                            <ul class="work_modal-list">
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        MEDIA:Illustrator.  
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        PROTOTYPE: Adobe XD.
+                                       
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <img src="assets/img/work1d.gif" alt="" class="work_img">
+                                </li>
+                                <li class ="work_modal-item">
+                                    <a href="work1.html">
+                                        More...        
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div> 
+            <div class="work_card mix web">
+                <span class="work_button">
+                    <img src="assets/img/work2.gif" alt="" class="work_img">                
+                    <h3 class="work_title">Andrew's Website</h3>
+                    Quick view...<i class="bx bx-right-arrow-alt work_icon"></i>
+                </span>
+                    <div class="work_modal">
+                        <div class="work_modal-content">
+                            <i class ='bx bx-x work_modal-close'></i>
+                            <h3 class="work_modal-title">Andrew's Website</h3>
+                            <p class="work_modal-description">
+                                I developed the website prototype by creating logo, wireframes, and mockups.
+                                Jewerly Design Andrea Gonzales
+                                Photography Paula Bello
+                            </p>
+                            <ul class="work_modal-list">
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        MEDIA:Illustrator and Photoshop.  
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        PROTOTYPE: Adobe XD.
+                                       
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <img src="assets/img/work2.jpg" alt="" class="work_img">
+                                </li>
+                                <li class ="work_modal-item">
+                                    <a href="work2.html">
+                                        More...        
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            <div class="work_card mix identity">
+                    
+                <span class="work_button">
+                    <img src="assets/img/work3.gif" alt="" class="work_img">
+                    <h3 class="work_title">Identity</h3>
+                    Quick view...<i class="bx bx-right-arrow-alt work_icon"></i>
+                </span>
+                    <div class="work_modal">
+                        <div class="work_modal-content">
+                            <i class ='bx bx-x work_modal-close'></i>
+                            <h3 class="work_modal-title">Identity Design</h3>
+                            <p class="work_modal-description">
+                                ACORN resembles a team of specialists in many fields: automation, engineering, acceleration particles technology, and sciences. 
+                            </p>
+                            <ul class="work_modal-list">
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        MEDIA:Illustrator and Photoshop. 
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        BOOKS: InDesign.
+                                       
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <img src="assets/img/work3b.jpg" alt="" class="work_img">
+                                </li>
+                               
+                                <li class ="work_modal-item">
+                                    <a href="work3.html">
+                                        More...        
+                                    </a>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                <div class="work_card mix personal">
+                    
+                    <span class="work_button">
+                        <img src="assets/img/work4.gif" alt="" class="work_img">
+                        <h3 class="work_title">Personal Identity</h3>
+                        Quick view...<i class="bx bx-right-arrow-alt work_icon"></i>
+                    </span>
+                    <div class="work_modal">
+                        <div class="work_modal-content">
+                            <i class ='bx bx-x work_modal-close'></i>
+                            <h3 class="work_modal-title">Personal Identity</h3>
+                            <p class="work_modal-description">
+                                I love creating logos. For a long time, I was not happy with my own. 
+                                Here, it is the final after thoughtful consideration. Inspired by the Eye fo Horus,
+                                this logotype illustrates my persistence and sophistication 
+                                in understanding personal interest, design principles, and Adobe Suit apps.
+                            </p>
+                            <ul class="work_modal-list">
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        MEDIA:Illustrator.  
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        PROTOTYPE: InDesign and Photoshop.
+                                       
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <img src="assets/img/work4a.jpg" alt="" class="work_img">
+                                </li>
+                                <li class ="work_modal-item">
+                                    <a href="work4.html">
+                                        More...        
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                </div> 
+                <div class="work_card mix illustration">
+                    
+                    <span class="work_button">
+                        <img src="assets/img/work5.gif" alt="" class="work_img">
+                        <h3 class="work_title">Illustration</h3>
+                        Quick view...<i class="bx bx-right-arrow-alt work_icon"></i>
+                    </span>
+
+                    <div class="work_modal">
+                        <div class="work_modal-content">
+                            <i class ='bx bx-x work_modal-close'></i>
+                            <h3 class="work_modal-title">lllustration</h3>
+                            <p class="work_modal-description">
+                                I love reading about mythology; this is an illustration of the roman goddess Adione. I like to draw and paint in a variety of traditional and digital media.
+                            </p>
+                            <ul class="work_modal-list">
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        MEDIA:Illustrator.  
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <p class="work_modal-info">
+                                        PROTOTYPE: After Effects.
+                                       
+                                    </p>
+                                </li>
+                                <li class ="work_modal-item">
+                                    <img src="assets/img/work5a.png" alt="" class="work_img">
+                                </li>
+                                <li class ="work_modal-item">
+                                    <a href="work5.html">
+                                        More...        
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--more-->
+        <section class="explore section">
+            <span class="section_subtitle">Explore</span>
+            <h2 class="section_title">More Projects</h2>
+            
+            <div class="explore_container container swiper">
+                <div class="swiper-wrapper"> 
+                    <div class="explore_card swiper-slide">
+                        <img src="assets/img/work6.gif" alt="" class="explore_img">
+                        <h3 class="explore_name" >Illustration & Animation</h3>
+                        <p class="explore_description"> 
+                            I created a series of vector illustrations inspired by Mardi Grass. 
+                        </p>
+                    </div>
+
+                    <div class="explore_card swiper-slide">
+                        <img src="assets/img/work7.gif" alt="" class="explore_img">
+                        <h3 class="explore_name" >Brochure</h3>
+                        <p class="explore_description">Brochure edition and illustration.
+                        
+                        <a href="work6.html" class="button">
+                            See more... 
+                        </a>
+                    </p>
+                    </div>
+
+                    <div class="explore_card swiper-slide">
+                        <img src="assets/img/work8.gif" alt="" class="explore_img">
+                        <h3 class="explore_name" >Illustration & Animation</h3>
+                        <p class="explore_description">Vectors graphics and animation effects.
+                        </p>
+                    </div>
+
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+     <!--skills-->
+     <section class="skills section" id="skills">
+        <span class="section_subtitle">Abilities</span>
+        <h2 class="section_title">Experience</h2>
+
+        <div class="skills_container container grid">
+            <div class="skills_content">
+                <h3 class="skills_title">Web Design</h3>
+
+                <div class="skills_box" >
+                    <div class="skills_group">
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                                <h3 class="skills_name">HTML</h3>
+                                <span class="skills_level">Basic</span>
+                            </div>
+                        </div>                       
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                                <h3 class="skills_name">CCS</h3>
+                                <span class="skills_level">Basic</span>
+                            </div> 
+                        </div>
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                                <h3 class="skills_name">JavaScript</h3>
+                                <span class="skills_level">Basic</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_group">
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                                <h3 class="skills_name">Visual Studio</h3>
+                                <span class="skills_level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                                <h3 class="skills_name">XD</h3>
+                                <span class="skills_level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                            <div>
+                                <h3 class="skills_name">Dreamweaver</h3>
+                                <span class="skills_level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="skills_content">
+                <h3 class="skills_title">Visual Design</h3>
+                <div class="skills_box" >
+                    <div class="skills_group">
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                              <div>
+                                  <h3 class="skills_name">Illustrator</h3>
+                                  <span class="skills_level">Intermediate</span>
+                              </div>
+                        </div>  
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                              <div>
+                                  <h3 class="skills_name">Photoshop</h3>
+                                  <span class="skills_level">Intermediate</span>
+                              </div>
+                        </div>                        
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                              <div>
+                                  <h3 class="skills_name">InDesign</h3>
+                                  <span class="skills_level">Intermediate</span>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="skills_group">
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                              <div>
+                                  <h3 class="skills_name">After Effects</h3>
+                                  <span class="skills_level">Intermediate</span>
+                              </div>
+                        </div>
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                              <div>
+                                  <h3 class="skills_name">Maya</h3>
+                                  <span class="skills_level">Basics</span>
+                              </div>
+                        </div>
+                        <div class="skills_data">
+                            <i class="bx bxs-badge-check"></i>
+                              <div>
+                                  <h3 class="skills_name">Blender</h3>
+                                  <span class="skills_level">Basics</span>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!--clients-->
+    <section class ="clients">
+        <span class="section_subtitle">Clients</span>
+        <h2 class="section_title">Freelance Work</h2>
+        
+        <div class="clients_container container grid">
+            <div class="clients_card">
+                <h3 class="clients_title">Designer</h3>
+                <span class="clients_button">
+                    see more <i class='bx bx-right-arrow-alt services_icon'></i>
+                </span>
+                <div class="services_modal">
+                    <div class="services_modal-content">
+                        <i class ='bx bx-x services_modal-close'></i>
+                        <h3 class="services_modal-title">Graphic Designer</h3>
+                        <h3 class="services_modal-description">
+                            Freelancer - Remote FENALCE -National Federation of Cereals- COTA, CUND. COLOMBIA
+                            
+
+                        </h3>
+                        <ul class="services_modal-list">
+                            <li class ="services_modal-item">
+                                <i class='bx bx-check services_modal-icon' ></i>
+                                <p class="services_modal-info">
+                                    Developed a promotion campaign: brochures, business cards, posters, and Facebook/Instagram posts to promote food safety by combinig design elements: color, typography, and photographs. 
+                                </p>
+                            </li>
+                            <li class ="services_modal-item">
+                                <i class='bx bx-check services_modal-icon' ></i>
+                                <p class="services_modal-info">
+                                    Delivered editable, pdf, and ready to print items by utilizing InDesign, Illustrator, and Photoshop.  
+                                   
+                                </p>
+                            </li>
+                            
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clients_card" >
+                <h3 class="clients_title">Animation</h3>
+                <span class="clients_button">
+                    see more <i class='bx bx-right-arrow-alt services_icon'></i>
+                </span>
+
+                <div class="services_modal">
+                    <div class="services_modal-content">
+                        <i class ='bx bx-x services_modal-close'></i>
+                        <h3 class="services_modal-title">Training Material</h3>
+                        <h3 class="services_modal-description">
+                            Freelancer Learning Center, Caterpiller Miami Lakes, FL.
+                            
+
+                        </h3>
+                        <ul class="services_modal-list">
+                            <li class ="services_modal-item">
+                                <i class='bx bx-check services_modal-icon' ></i>
+                                <p class="services_modal-info">
+                                    Developed motion graphics animated presentation by creating frames, and compositions for learning purposes.
+                                   
+                                    
+                                </p>
+                            </li>
+                            <li class ="services_modal-item">
+                                <i class='bx bx-check services_modal-icon' ></i>
+                                <p class="services_modal-info">
+                                    Applied feedback from instructors by incorporating relevant information under learning techniques
+                                    
+                                </p>
+                            </li>
+                            <li class ="services_modal-item">
+                                <i class='bx bx-check services_modal-icon' ></i>
+                                <p class="services_modal-info">
+                                    Delivered videos in mp4 format by utilizing photoshop, and AfterEffects.
+                                </p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+        <!--Contact-->
+        <section class="contact section" id ="contact">
+            <span class="section_subtitle">Get in touch</span> 
+            <h2 class="section_title">Contact Info</h2>
+
+            <div class="contact_container" container grid>
+                <div class=" contact_content">
+                    <h3 class="contact_title">Contact me</h3>
+
+                    <div class="contact_info">
+                        <div class="contact_card">
+                            <i class="bx bx-mail-send contact_card-icon"></i>
+                            <h3 class="contact_card-title">Email</h3>
+                            <span class="contact_card-data">angela.52911@gmail.com</span>
+                            <a href="mailto:angela.52911@gmail.com" target="_blank" class="contact_button">
+                                write me<i class="bx bx-right-arrow-alt contact_button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact_card">
+                            <i class="bx bxl-whatsapp contact_card-icon"></i>
+                                <h3 class="contact_card-title">Whatsapp</h3>
+                                <span class="contact_card-data">+1 630-386-3460</span>
+                                <a href="https://api.whatsapp.com/send?phone=+16303863460&text=Hello, more information" target="_blank" class="contact_button">
+                                    write me<i class="bx bx-right-arrow-alt contact_button-icon"></i>
+                                </a>
+                         </div>
+
+                         <div class="contact_card">
+                            <i class="bx bxl-messenger contact_card-icon"></i>
+                                <h3 class="contact_card-title">Messenger</h3>
+                                <span class="contact_card-data">angela.bello1</span>
+                                <a href="https://www.facebook.com/angela.bello1" target="_blank" class="contact_button">
+                                    write me<i class="bx bx-right-arrow-alt contact_button-icon"></i>
+                                </a>
+                         </div>
+                    </div>
+
+                </div>
+            
+                <div class=" contact_container">
+                    <h3 class="contact_title">Write me</h3>
+
+                    <form action="https://formspree.io/f/xyyojnnk" method="POST" contact_form>
+                        <div class="contact_form-div">
+                            <label for="" class="contact_form-tag">Names</label>
+                            <input type="text" name="name" placeholder="Insert your name" class="contact_form-input">
+                        </div>
+                        <div class="contact_form-div">
+                            <label for="" class="contact_form-tag">Mail</label>
+                            <input type="email" name="email" placeholder="Insert your Email" class="contact_form-input">
+                        </div>
+                        <div class="contact_form-div contact_form-area">
+                            <label for="" class="contact_form-tag">Project</label>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Tell me about your project" class="contact_form-input"></textarea>
+                        </div>
+                        <button type="submit" class="contact_button">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container">
+            
+            <h1 class="footer_title">Angela Bello</h1>
+            <ul class="footer_list">
+                <li>
+                    <a href="#about" class="footer_link">About</a>
+                </li>
+            
+          
+                <li>
+                    <a href="#work" class="footer_link">Projects</a>
+                </li>
+           
+                <li>
+                    <a href="#contact" class="footer_link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer_social">
+                <a href="https://www.facebook.com/angela.bello1" target="" class="footer_social-link">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/angela52911/" target="" class="footer_social-link">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="https://www.behance.net/angela52914c9d" target="" class="footer_social-link">
+                    <i class='bx bxl-behance'></i>
+                </a>
+            </ul>
+            <span class="footer_copy">
+                © 2022 Angela Bello All Rights Reserved
+            </span>
+        </div>
+    </footer>
+
+        <!--swiper js-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+
+        <!--filter portfolio-->
+        <script src="assets/js/mixitup.min.js"></script>
+        
+        
+        <!--MainJS-->
+        <script src="assets/js/code.js"></script>
+
+
+    </body>
+  
+</html>
+
+
+<!-- 
+   This code is not a template; it was written and edited by Angela Bello in Visual Basic Studio 2022.
+-->
+<!--Acknowledgments
+I thank Bedimcode YouTube channel without its tutorials this website wouldn't be possible.
+Icons: https://boxicons.com/
+Fonts: https://fonts.google.com/
+GitHub: https://github.com/bedimcode/responsi...
+Mixitup: https://www.kunkalabs.com/mixitup/
+Swiper: https://swiperjs.com/
+ScrollReveal: https://scrollrevealjs.org/
+Dopely: https://colors.dopely.top/color-pedia
+
+>
