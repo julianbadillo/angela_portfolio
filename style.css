@@ -1,0 +1,836 @@
+*, :before, :after {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+  
+}
+
+.hide{
+    display: none;
+}
+
+.home_image{
+  position: absolute;
+  width: auto;  
+  height: 100%;
+  margin-left: 0%;
+  margin-top: 0%;
+  z-index: -100;
+}
+
+.logo{
+  width:25%;
+}
+.about_style{
+  display: inline-flex;
+  color:#190A18;
+}
+
+
+.about_image{
+  width: 100%;  
+  height: auto;
+  margin: 0% 30% 0% 0%;
+  z-index: 50;
+ }
+
+ .about_paragraph{
+  background: #190A19;
+  color:#ffffff;
+  font-family: 'Crimson Pro', serif;
+  text-align: left;
+  width: 30%;  
+  margin: 0% 0% 0% 0%;
+  padding: 5% 5% 0% 5%;
+ }
+
+p{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.paragraph{
+      background: #190A19;
+      color:#ffffff;
+      font-family: 'Crimson Pro', serif;
+      text-align: left;
+      width: 30%;  
+      margin: 0% 0% 0% 0%;
+      padding: 2% 5% 0% 5%;
+     }    
+.paragraph1{
+      color: #190A19;
+      text-align: left;
+      width: 40%;  
+      padding: 2% 5% 0% 5%;
+      } 
+.paragraph2{
+      background: #ffffff;
+      color:#190A19;
+      font-family: 'Crimson Pro', serif;
+      width: 80%;  
+      padding: 2% 5% 2% 5%;
+      
+     }    
+    
+
+.page_style{
+  font-family: 'Red Rose', cursive;
+	position:fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: auto auto;
+	 align-items: center;
+}
+
+.page_style .page__description{
+		color: #ffffff;
+		text-align: center;
+}
+
+
+
+h1 {
+    margin-top: 0%;
+    font-weight: 200;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+ 
+  h2{
+    color: #9B8919;
+    font-family:'Red Rose', cursive;
+    font-size: 2.5 em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+    letter-spacing: 0.25em;
+    }
+
+
+    h3{
+      color: #9B8919;
+      font-family:'Red Rose', cursive;
+      font-size: 1.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.125em;
+      padding: 3% 3% 3% 3%;
+      }
+  
+      h4{
+        color: #190A19;
+        font-family:'Red Rose', cursive;
+        font-size: 1.25em;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 2%;
+        }
+
+        h5 {
+          font-family: 'Red Rose', cursive;
+          font-weight: 300;
+          font-size: 2em;
+          text-align: center;
+          color: #190A19;
+        } 
+
+ .page_style .btn_nav {
+	background: #190A18;
+	color: #9B8919;
+	cursor: pointer;
+  border: none;
+	font-family: inherit;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	}
+
+  .page_style .btn_nav:focus,
+  .page_style .btn_nav:active {
+	outline: none;
+  }
+  .page_style a {
+	text-decoration: none;
+  color: #9B8919;
+  }
+  .page_style a:hover {
+	text-decoration: underline;
+  }
+  .animate_content {
+	animation: animate 3s ease;
+  }
+  .fadeIn {
+	z-index: 10;
+  }
+
+  .bm{
+    justify-self: center;
+     }
+
+/*  Home
+-----------------------------------*/
+.home{
+	background: #190A18;
+}
+/*  Portfolio
+-----------------------------------*/
+.portfolio{
+	background: #190A18;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #190A18;
+}
+
+  /* Cards
+  ----------------------------------- */
+  .card-column {
+    width: 25%;
+    float: left;
+    padding: 2%;
+    box-sizing: border-box;
+  }
+  
+  /* .column-1 {
+    padding-top: 200px;
+  } */
+  
+  .page_style .page__description{
+    color: #190A18;
+    text-align: center;
+}
+
+.card {
+  width: 92%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  position: relative;
+  background:#9B8919;
+  color:#190A18;
+  font-family:'Red Rose', cursive;
+  cursor: pointer;
+  border-radius: 2%;
+}
+
+
+
+.card h1 {
+  font-family:'Red Rose', cursive;
+  font-size: 1.25em;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  padding: 80% 0% 0% 20%;
+  width: 90%;
+  color: #190a18;
+}
+
+.card img {
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  min-height: 10em;
+  top: 0%;
+  left: 0%;
+  border-radius: 2% 2% 0% 0%;
+}
+
+.card-color {
+  background-image: linear-gradient(35deg,#9B8919, #ffffff);
+  }
+
+
+
+/*--swiper --*/
+.swiper-pagination-bullet{
+  color: #9B8919;
+  opacity: 50%;
+  margin-bottom: 1rem;
+}
+
+.swiper-pagination-bullet-active{
+  color: #9B8919;
+
+}
+
+
+
+
+
+/*  About
+-----------------------------------*/
+.about{
+	background: #190A18;
+}
+/*  Contact
+-----------------------------------*/
+.contact{
+	background: #190A18;
+}
+
+
+
+.contact_content{
+  background: #190A18;
+  row-gap: 3rem;
+  padding-bottom: 1rem;
+  border-radius: 1.5rem;
+  
+}
+
+.contact_title{
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.contact_info{
+  display: grid;
+  gap: 1rem;
+}
+
+.contact_card{
+  float:left;
+  width: 24%;
+  background: #190A18;
+  padding: 5rem;
+  margin: 24% 4% 2% 4%;
+  border-radius: .75rem;
+  text-align: center;
+  align-content: center;
+}
+
+.contact_card-icon{
+  font-size: 2rem;
+  color: #9B8919;
+  margin-bottom: .25rem;
+}
+
+.contact_card-title,
+.contact_card-data{
+  font-size: var(--small-font-size);
+  color: #ffffff;
+}
+
+.contact_card-title{
+  font-weight: 2em;
+  color: #9B8919;
+}
+
+.contact_card-data{
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.contact_button{
+  background-color: var(--container-color);
+  color: var(--text-color-light);
+  font-size: var(--small-font-size);
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contact_button:hover .contat_button-icon{
+  transform: translateX(.25rem);
+}
+
+.contat_button-icon{
+  font-size: 1rem;
+  transition: .4s;
+}
+
+
+.page_project{
+  width: auto;
+  height: auto;
+ 
+}
+
+.project0{
+  display:inline-flex;
+}
+.step{
+  display:inline-flex;
+  width: 80%;
+  padding: 3% 3% 3% 3%;
+}
+.substeptitle{
+  display: block;
+}
+.substep{
+  display: block;
+  width: 100%;
+  padding: 3% 3% 3% 3%;
+}
+
+
+.footer{
+  align-content: center;
+  font-size: 0.5rem;
+  transform: rotateX('90');
+
+}
+/* Mobile media-queries (max-width: 767px)
+******************************************************************/
+@media only screen and (max-width: 767px) {
+  .page__description h1 {
+    margin-top: 100px;
+  }
+
+  .card-column {
+    width: 90%;
+  }
+  
+  .column-1 {
+    padding-top: 0px;
+  }
+  
+  .open-content img {
+    margin-top: 40px;
+  }
+  
+}
+@-moz-keyframes animate {
+  10% {
+    transform: scale(1, 0.002);
+  }
+  35% {
+    transform: scale(0.2, 0.002);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.2, 0.002);
+    opacity: 0;
+  }
+  85% {
+    transform: scale(1, 0.002);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes animate {
+  10% {
+    transform: scale(1, 0.002);
+  }
+  35% {
+    transform: scale(0.2, 0.002);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.2, 0.002);
+    opacity: 0;
+  }
+  85% {
+    transform: scale(1, 0.002);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes animate {
+  10% {
+    transform: scale(1, 0.002);
+  }
+  35% {
+    transform: scale(0.2, 0.002);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.2, 0.002);
+    opacity: 0;
+  }
+  85% {
+    transform: scale(1, 0.002);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes animate {
+  10% {
+    transform: scale(1, 0.002);
+  }
+  35% {
+    transform: scale(0.2, 0.002);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.2, 0.002);
+    opacity: 0;
+  }
+  85% {
+    transform: scale(1, 0.002);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 320px){
+  
+  .bm{
+    transform: scale(300%);
+  }  
+
+
+  .home_image{
+    position: absolute;
+    width: auto;  
+    height: 100%;
+  }
+
+  .logo{
+    width:20%;
+  }
+  
+  h1 {
+    font-weight: 200;
+    font-size: 2em;
+   }
+
+   h2{
+    font-size: 1.5 em;
+   }
+  
+   h3{
+    font-size: 1 em;
+   }
+   
+   h4{
+    font-size: 0.75 em;
+   }
+
+   .page_style .btn_nav {
+    display: block;
+    background: #190A18;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    margin: 3% 0%;
+    padding: 6% 6% 6% 6%;
+    width: 100%;
+   }
+  
+
+  
+   .about_style{
+    width: 100%;
+    height:auto;
+    display:inline;
+    padding-bottom: 2%;
+   }
+
+   .about_image{
+    width: 20%;  
+    margin: 0% 10% 0% 0%;
+    z-index: -50;
+    
+   }
+
+   .about_paragraph{
+    opacity: 80%;
+    width: 100%;
+    text-align: center;
+    margin: -80% 0% 0% 0%;
+    padding: 5% 3% 3% 10%;
+   }
+
+   .card-column {
+    width: 100%;
+   }
+  
+   .card {
+    width: 92%;
+   }
+
+   p{
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.25em;
+}
+
+.container{
+    min-width: 320px;
+    height: max-content;
+    margin: 2% 0% 0% 0%;
+    display: block;
+  }
+  .contact_card{
+    float:left;
+    width: 100%;
+    padding: 1rem;
+    margin: 2% 4% 2% 4%;
+   
+  }
+
+  .project0{
+    display:block;
+    align-content: left;
+  }
+
+  .icon{
+    width: 25%;
+    align-content:left;
+  }
+  .frame0{
+    width:200%;
+    
+  }
+  .frame{
+    width:250%;
+    height: auto;
+  }
+.paragraph1{
+  text-align: left;
+  width: 100%;  
+  
+  } 
+  .paragraph2{
+    width: 100%;  
+        
+   }  
+
+
+  .step{
+    display: block;
+  }
+
+
+  }
+
+ 
+
+@media screen and (min-width: 576px){
+
+  .logo{
+    width:20%;
+  }
+
+  .container {
+    min-width: 576px;
+    height: auto;
+    margin: 0 auto;
+    display: inline;
+  }
+  
+  
+  h1 {
+    font-weight: 200;
+    font-size: 2em;
+   }
+  
+   h2{
+    font-size: 2 em;
+    font-weight: 700;
+   }
+
+
+    h3{
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+  
+      h4{
+        font-size: 1em;
+        font-weight: 400;
+     }
+
+        h5 {
+          font-weight: 300;
+          font-size: 1em;
+         
+        } 
+
+
+
+   .page_style .btn_nav {
+    display: inline;
+    background: #190A18;
+    font-size: 0.75em;
+    letter-spacing: 0.15em;
+    padding: 1% 1% 1% 1%;
+    width: 23%;
+   }
+
+   .about_style{
+    display:inline-flex;
+   }
+
+   .about_image{
+    
+    width: 30%;
+    margin: 0% 0% 0% 0%;
+    
+   }
+
+   .about_paragraph{
+    
+    width: 100%;
+    text-align:left;
+    margin: 0% 0% 0% 0%;
+    padding: 5% 10% 3% 10%;
+   }
+
+
+   .card {
+    width: 72%;
+   }
+
+   p{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.5em;
+ }
+   
+   .contact_card{
+    float:left;
+    width: 25%;
+    padding: 1rem;
+    margin: 20% 4% 2% 4%;
+   
+  }
+  .project0{
+    display:block;
+  }
+
+
+  .step{
+    display: inline;
+  }
+
+
+  }
+
+
+
+
+
+
+
+  @media screen and (min-width: 968px){
+
+    .logo{
+      width: 30%;
+    }
+ 
+
+    .container {
+      min-width: 968px;
+      margin: 0 auto;
+      display: inline;
+    }
+    
+    
+    h1 {
+        margin-top: 0%;
+        font-weight: 200;
+        font-size: 2em;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      h2{
+        color: #9B8919;
+        font-family:'Red Rose', cursive;
+        font-size: 2.5 em;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 5%;
+        letter-spacing: 0.25em;
+        }
+    
+    
+        h3{
+          color: #9B8919;
+          font-family:'Red Rose', cursive;
+          font-size: 1.5em;
+          font-weight: 700;
+          text-transform: uppercase;
+          text-align: center;
+          letter-spacing: 0.125em;
+          padding: 3% 3% 3% 3%;
+          }
+      
+          h4{
+            color: #190A19;
+            font-family:'Red Rose', cursive;
+            font-size: 1.25em;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: left;
+            padding-top: 2%;
+            }
+    
+            h5 {
+              font-family: 'Red Rose', cursive;
+              font-weight: 300;
+              font-size: 2em;
+              text-align: center;
+              color: #190A19;
+            }   
+
+      .page_style .btn_nav {
+        font-size: 1.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.25em;
+        margin-bottom: 2%;
+        padding:1% 1% 1% 1%; 
+        width: 23%;
+       }
+      
+      .about_style{
+        display:flex;
+       }
+
+       
+       
+  
+       .card-column {
+        width: 60%;
+       }
+      
+
+     }
+    
+
+  
+  
+  
