@@ -21,6 +21,12 @@ $('.home_link').click(function() {
   }, 1500);
 });
 
+$('.clients_link').click(function() {
+  setTimeout(function() {
+    $('.clients').addClass('fadeIn');
+  }, 1500);
+});
+
 $('.portfolio_link').click(function() {
   setTimeout(function() {
     $('.portfolio').addClass('fadeIn');
