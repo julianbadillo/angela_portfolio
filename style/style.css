@@ -1112,7 +1112,9 @@ h1 {
     display: block;
   }
  
-
+  .substep{
+    padding: 1% 1% 1% 1%;
+  }
 
 
   }
@@ -1316,7 +1318,8 @@ h1 {
   }
   .substep{
     align-content: center;
-    text-align: center
+    text-align: center;
+    padding: 1% 1% 1% 1%;
   }
 
   .frame0{
