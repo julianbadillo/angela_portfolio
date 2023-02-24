@@ -980,7 +980,7 @@ h1 {
 
    .card h1 {
     font-weight: 200;
-    font-size: 1em;
+    font: size 0.75em;
     padding: 84% 0% 0% 0%;
     margin-bottom: 12%;
     
